@@ -3,8 +3,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Viss Fashions",
-  description: "viss fashions UI/UX design",
+  title: "Mohid Watches",
+  description: "Mohid Watches UI/UX design",
 }
 
 export default function RootLayout({
