@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import { IoMenu, IoClose } from "react-icons/io5";
-
+import Image from 'next/image';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -19,7 +19,7 @@ const Header = () => {
             <nav className="flex items-center justify-between h-16 lg:h-20">
               <div className="flex-shrink-0">
                 <a href="#" title="" className="flex ml-[20px]">
-                  <img className="w-auto h-[40px] lg:h-10" src="Apple.svg" alt="" />
+                  <Image className="w-auto h-[40px] lg:h-10" src="Apple.svg" alt="" />
                   <h1 className='text-[white] text-[27px] font-sans'>Mohid</h1>
                 </a>
               </div>
