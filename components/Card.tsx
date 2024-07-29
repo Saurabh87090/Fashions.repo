@@ -16,9 +16,10 @@ function Card(props: any) {
         <img
           className="w-[80%] flex items-center justify-center"
           src={imgSrc}
-          alt=""
+          alt="watch"
         />
       </div>
+      
       <div className="flex items-center justify-center flex-col pb-5">
         <h1 className="text-[25px] font-medium mt-[40px]">{name}</h1>
         <Star star={star} />
