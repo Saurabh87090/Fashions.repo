@@ -19,7 +19,7 @@ const Header = () => {
             <nav className="flex items-center justify-between h-16 lg:h-20">
               <div className="flex-shrink-0">
                 <a href="#" title="" className="flex ml-[20px]">
-                  <Image className="w-auto h-[40px] lg:h-10" src="Apple.svg" alt="" />
+                  <Image className="w-auto h-[40px] lg:h-10" src="Apple.svg" alt="Apple" />
                   <h1 className='text-[white] text-[27px] font-sans'>Mohid</h1>
                 </a>
               </div>
@@ -33,9 +33,9 @@ const Header = () => {
               </div>
               
               <div className='hidden md:flex mr-[80px]'>
-                <img className='mr-[30px]' src="Search.png" alt="" />
-                <img className='mr-[30px]' src="Person.png" alt="" />
-                <img className='mr-[30px]' src="Cart.png" alt="" />
+                <img className='mr-[30px]' src="Search.png" alt="search" />
+                <img className='mr-[30px]' src="Person.png" alt="person" />
+                <img className='mr-[30px]' src="Cart.png" alt="cart" />
               </div>
               
               <button className="lg:hidden text-white mr-[20px]" onClick={handleMenu}>
@@ -45,11 +45,11 @@ const Header = () => {
 
             {menuOpen && (
               <div className="flex flex-col items-center justify-center mt-4  space-y-4 lg:hidden">
-                <a href="#" title="" className="text-[20px] font-light text-white"> Home </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Brands </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Recent Products </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Contact </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> About </a>
+                <a href="#" title="home" className="text-[20px] font-light text-white"> Home </a>
+                <a href="#" title="brand" className="text-[20px] font-light text-white"> Brands </a>
+                <a href="#" title="recent" className="text-[20px] font-light text-white"> Recent Products </a>
+                <a href="#" title="contact" className="text-[20px] font-light text-white"> Contact </a>
+                <a href="#" title="about" className="text-[20px] font-light text-white"> About </a>
 
                 <div className='flex items-center justify-center space-x-8 pt-[60px]'>
                   <img src="Search.png" alt="Search" className='h-8 w-8 ' />
