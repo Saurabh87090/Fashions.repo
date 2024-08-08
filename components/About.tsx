@@ -13,6 +13,7 @@ const About = () => {
       </div>
       
       {/* products */}
+      
       <div className="my-[60px]">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mx-[20px]">
           
