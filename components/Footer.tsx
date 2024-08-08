@@ -10,6 +10,7 @@ const Footer = () => {
           <h1 className="text-[28px] sm:text-[32px] md:text-[35px] font-medium">
             Subscribe To Newsletter
           </h1>
+          
           <p className="text-[#8B8E99] mt-2">Get free guide about smart watches daily.</p>
           <form action="#" method="POST" className="mt-8 flex flex-col sm:flex-col md:flex-row items-center">
             <input
