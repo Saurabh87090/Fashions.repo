@@ -25,11 +25,11 @@ const Header = () => {
               </div>
 
               <div className="hidden lg:flex lg:items-center lg:space-x-10">
-                <a href="#" title="home" className="text-base font-light text-white"> Home </a>
-                <a href="#" title="brands" className="text-base font-light text-white"> Brands </a>
-                <a href="#" title="recent products" className="text-base font-light text-white gap-2"> Recent Products </a>
-                <a href="#" title="contact" className="text-base font-light text-white"> Contact </a>
-                <a href="#" title="about" className="text-base font-light text-white"> About </a>
+                <a href="#" title="" className="text-base font-light text-white"> Home </a>
+                <a href="#" title="" className="text-base font-light text-white"> Brands </a>
+                <a href="#" title="" className="text-base font-light text-white gap-2"> Recent Products </a>
+                <a href="#" title="" className="text-base font-light text-white"> Contact </a>
+                <a href="#" title="" className="text-base font-light text-white"> About </a>
               </div>
               
               <div className='hidden md:flex mr-[80px]'>
