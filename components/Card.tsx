@@ -16,7 +16,7 @@ function Card(props: any) {
         <img
           className="w-[80%] flex items-center justify-center"
           src={imgSrc}
-          alt="watch"
+          alt=""
         />
       </div>
       
