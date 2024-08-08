@@ -21,7 +21,9 @@ const Hero = () => {
           </div>
           < div className="relative flex items-center w-[90%] md:w-[420px] max-w-md h-[60px] rounded-xl focus-within:shadow-lg bg-white overflow-hidden mx-auto md:ml-[200px] mt-[40px] md:mt-[80px]">
             <div className="grid place-items-center h-full w-12 text-gray-300">
+              
               {/* Optional icon can be placed here */}
+              
             </div>
             
             <input
