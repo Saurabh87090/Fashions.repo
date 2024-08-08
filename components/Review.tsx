@@ -10,7 +10,6 @@ const Review = () => {
       </div>
 
       {/* Preview 1 */}
-      
       <div className='h-full w-full flex flex-col lg:flex-row items-center justify-center my-[50px] sm:my-[80px] space-y-8 sm:space-y-0 '>
 
         <div className='bg-[#F6F6F6] w-full max-w-[550px] h-auto md:h-[200px] rounded-2xl flex flex-col sm:flex-row items-center p-6'>
@@ -25,7 +24,6 @@ const Review = () => {
         </div>
 
         {/* Preview 2 */}
-        
         <div className='bg-[#F6F6F6]  w-full max-w-[550px] h-auto md:h-[200px] rounded-2xl flex flex-col sm:flex-row items-center p-6 mt-[40px] md:mx-[60px] sm:my-11 '>
           <img className='h-[140px] md:h-[180px] mb-4 md:mb-0 md:mr-6' src="man2.svg" alt="Hafiz Huzaifa" />
           <div>
