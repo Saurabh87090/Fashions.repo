@@ -1,4 +1,5 @@
 "use client"
+
 import React from "react";
 import Star from "./Star";
 import { motion } from "framer-motion";
