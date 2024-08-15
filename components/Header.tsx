@@ -45,11 +45,11 @@ const Header = () => {
 
             {menuOpen && (
               <div className="flex flex-col items-center justify-center mt-4  space-y-4 lg:hidden">
-                <a href="#" title="" className="text-[20px] font-light text-white"> Home </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Brands </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Recent Products </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> Contact </a>
-                <a href="#" title="" className="text-[20px] font-light text-white"> About </a>
+                <a href="#" title="Home" className="text-[20px] font-light text-white"> Home </a>
+                <a href="#" title="Brands" className="text-[20px] font-light text-white"> Brands </a>
+                <a href="#" title="Recent Product" className="text-[20px] font-light text-white"> Recent Products </a>
+                <a href="#" title="Contact" className="text-[20px] font-light text-white"> Contact </a>
+                <a href="#" title="About" className="text-[20px] font-light text-white"> About </a>
 
                 <div className='flex items-center justify-center space-x-8 pt-[60px]'>
                   <img src="Search.png" alt="Search" className='h-8 w-8 ' />
