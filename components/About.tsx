@@ -4,6 +4,7 @@ import { productData } from "@/app/data/product";
 
 const About = () => {
   return (
+    
     <div className="max-w-[1400px] mx-auto p-4">
       <div className="flex items-center justify-center flex-col mt-[40px]">
         <h1 className="text-[#3858D6]">Find your favourite smart watch.</h1>
