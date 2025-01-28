@@ -3,6 +3,7 @@ import Star from './Star'
 
 const Review = () => {
   return (
+    
     <div className="px-2">
       <div className="text-center">
         <h1 className='text-[#3858D6]'>Here are our some of the best clients.</h1>
