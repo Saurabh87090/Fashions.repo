@@ -2,7 +2,6 @@ import React from 'react';
 
 function Star({ star }: { star: number }) {
   return (
-    
     <div className='flex space-x-1'>
       {Array.from({ length: star }, (_, index) => (
       
