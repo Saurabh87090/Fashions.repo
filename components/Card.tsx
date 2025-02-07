@@ -7,7 +7,6 @@ function Card(props: any) {
   const { name, imgSrc, mrp, price, star } = props;
 
   return (
-    
     <div className="w-[340px]">
     <motion.div
     whileHover={{ scale: 0.9 }}
