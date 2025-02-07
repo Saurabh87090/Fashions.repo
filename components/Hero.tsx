@@ -2,7 +2,6 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    
     <div>
       <main>
         <div className='bg-gradient-to-r from-gray-900 to-black h-[1200px] sm:h-[1190px] ' >
